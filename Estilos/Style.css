@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: auto;
+}
+
+header {
+    background-image: url(https://img.freepik.com/foto-gratis/textura-oscura-acuarela_125540-769.jpg?t=st=1651614348~exp=1651614948~hmac=9ee9069597969ab0827fefddebb55a3e38025b978cb96c959efd72eb6e019a23&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100%; 
+    border: 5px black;
+    border-width: 5px;
+    border-color: grey;
+    border-style: groove;
+    margin-block-end: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+header div #cambioLogo {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+
+    
+
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: auto;
+   justify-content: space-between;
+}
+
+nav ul li a{
+    border: 2px whitesmoke;
+    padding: 2px;
+    margin: 0 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+h1{
+    padding: 30px;
+    font-size: 45px;
+    background-color: gray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center;
+    margin-block-end: 15px;
+}
+
+
+.coleccionBlack{
+    width: 350px;
+    height: auto;
+    padding: 50px;
+    margin-left: 30px;
+    border: 5px;
+    border-color: black;
+    border-style:groove;
+    background-color: gray;
+    
+    
+}
+h2{
+    padding: 30px;
+    margin-top: 15px;
+    margin-block-end: 10px;
+    font-size: 25px;
+    background-color: lightslategray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.centrarVideo{
+    margin-top: 15px;
+    margin-block-end: 15px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/foto-gratis/textura-oscura-acuarela_125540-769.jpg?t=st=1651614348~exp=1651614948~hmac=9ee9069597969ab0827fefddebb55a3e38025b978cb96c959efd72eb6e019a23&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div ol li {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    background-color: lightgrey;
+
+
+}
+
+.separacionFuentes {
+    margin-block-end: 15px;
+
+}
+
+.cambioPagos {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: black;
+}
+
+#cambiosFormulario {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    color: bisque;
+    background-color: black;
+    margin-top: 2%;
+    padding: 2%;
+                 
+}
+
+
+h3 {
+    padding: 20px;
+    font-size: 20px;
+   
+    
+}
+
+footer {
+    background-color: gray;
+    height: 40px;
+    padding: 40px;
+    margin-top: 15px;
+
+}
+
